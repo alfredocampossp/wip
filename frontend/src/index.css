@@ -1,0 +1,62 @@
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.alert {
+  text-align: center;
+}
+
+/* Exibe o dropdown ao passar o mouse */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Ajusta o posicionamento e a visibilidade do dropdown */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 0;
+  z-index: 1000;
+}
+
